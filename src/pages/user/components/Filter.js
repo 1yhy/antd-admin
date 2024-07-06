@@ -84,7 +84,7 @@ class Filter extends Component {
           <Col {...ColProps} xl={{ span: 4 }} md={{ span: 8 }}>
             <Form.Item name="name">
               <Search
-                placeholder={t`Search Name`}
+                placeholder={t`换行`}
                 onSearch={this.handleSubmit}
               />
             </Form.Item>
@@ -99,7 +99,7 @@ class Filter extends Component {
               <Cascader
                 style={{ width: '100%' }}
                 options={city}
-                placeholder={t`Please pick an address`}
+                placeholder={t`换行`}
               />
             </Form.Item>
           </Col>
